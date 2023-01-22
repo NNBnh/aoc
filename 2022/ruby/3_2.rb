@@ -1,4 +1,4 @@
-input
+File.read('input.txt')
 .split.each_slice(3)
 .map do
   [nil, *?a..?z, *?A..?Z]

@@ -1,4 +1,4 @@
-input
+File.read('input.txt')
 .split
 .map do |pair|
   pair.split(/[^\d]/).map(&:to_i)
